@@ -11,6 +11,10 @@ body {
   font-size: 1.13rem;
 }
 
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .font-poppins {
   font-family: 'Poppins', sans-serif;
 }

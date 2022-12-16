@@ -982,6 +982,11 @@ video {
   color: hsl(192 100% 9% / var(--tw-text-opacity));
 }
 
+.text-pink {
+  --tw-text-opacity: 1;
+  color: hsl(322 100% 66% / var(--tw-text-opacity));
+}
+
 .text-opacity-90 {
   --tw-text-opacity: 0.9;
 }

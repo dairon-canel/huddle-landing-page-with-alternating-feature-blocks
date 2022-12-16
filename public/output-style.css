@@ -719,6 +719,10 @@ video {
   max-width: 75rem;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }

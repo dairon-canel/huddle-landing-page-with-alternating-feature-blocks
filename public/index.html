@@ -51,7 +51,7 @@
           engage in genuine discussion.
         </p>
         <button
-          class="font-open-sans mt-[1.9rem] place-self-center rounded-full bg-pink py-[0.78rem] px-[3.74rem] text-xs font-600 text-white shadow-lg transition-all hover:shadow-sm hover:brightness-150 md:py-[1.3rem] md:text-[1rem]"
+          class="font-open-sans mt-[1.9rem] place-self-center rounded-full bg-pink py-[0.78rem] px-[3.74rem] text-xs font-600 text-white shadow-lg transition-all hover:shadow-sm hover:brightness-150 md:place-self-start md:py-[1.3rem] md:text-[1rem]"
         >
           Get Started For Free
         </button>
@@ -59,6 +59,7 @@
       <img
         class="col-start-1 col-end-3 mt-[3.3rem] h-auto w-auto px-[1.25rem] md:col-start-2 md:col-end-3 md:row-start-2 md:mt-[4rem] md:px-0 md:pr-[0.2rem] md:pl-[1.7rem]"
         aria-hidden="true"
+        alt="illustration mockups"
         src="./illustration-mockups.svg"
       />
       <picture
@@ -66,7 +67,11 @@
         aria-hidden="true"
       >
         <source media="(min-width: 768px)" srcset="./bg-hero-desktop.svg" />
-        <img aria-hidden="true" src="./bg-hero-mobile.svg" />
+        <img
+          alt="hero section bg"
+          aria-hidden="true"
+          src="./bg-hero-mobile.svg"
+        />
       </picture>
     </header>
     <main
@@ -85,6 +90,7 @@
         <img
           class="order-1 md:order-2"
           aria-hidden="true"
+          alt="grow together"
           src="./illustration-grow-together.svg"
         />
       </section>
@@ -101,6 +107,7 @@
         <img
           class="order-1 md:place-self-end"
           aria-hidden="true"
+          alt="flowing conversation"
           src="./illustration-flowing-conversation.svg"
         />
       </section>
@@ -117,6 +124,7 @@
         <img
           class="order-1 md:order-2"
           aria-hidden="true"
+          alt="your users"
           src="./illustration-your-users.svg"
         />
       </section>
@@ -135,12 +143,12 @@
     </main>
 
     <footer class="grid bg-veryDarkCyan px-[1rem] pt-[8.6rem] md:pt-[8.8rem]">
-      <section
+      <div
         class="grid max-w-[75rem] place-self-center md:grid-cols-[31.8rem_14.2rem_15.5rem_auto] md:grid-rows-[repeat(3,_auto)]"
       >
-        <header class="mb-[1.5rem] md:row-start-1">
+        <div class="mb-[1.5rem] md:row-start-1">
           <img width="165" src="./logo-footer.svg" alt="logo" />
-        </header>
+        </div>
         <div
           class="grid grid-cols-[1.3rem_auto] gap-x-[1.1rem] gap-y-[1.5rem] md:row-start-2 [&>p]:w-[18.5rem] [&>p]:text-[1rem] [&>p]:font-400 [&>p]:text-white [&>p]:text-opacity-90 [&>.contact]:place-self-center"
         >
@@ -215,14 +223,7 @@
             >Dairon Canel</a
           >.
         </p>
-      </section>
+      </div>
     </footer>
-
-    <!-- <footer class="attribution z-20">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="https://github.com/dairon-canel">Dairon Canel</a>.
-    </footer> -->
   </body>
 </html>
